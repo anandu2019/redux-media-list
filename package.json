@@ -9,12 +9,15 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
+    "test:ci": "jest --ci --coverage",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://anandu2019.github.io/redux-media-list",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.3",
+    "react-scripts": "^5.0.1",
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2"
   },
